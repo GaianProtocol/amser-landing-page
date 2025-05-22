@@ -82,7 +82,7 @@ export default function Home() {
             AMSER is dedicated to making payments effortless for businesses of all sizes. Our Payment on Behalf Service streamlines your financial operations, reduces manual work, and ensures every transaction is smooth and secure.
           </p>
           <p className="text-lg text-gray-700">
-            Whether you're a startup or an enterprise, AMSER adapts to your needs, providing a robust payment gateway that grows with your business.
+            Whether you&apos;re a startup or an enterprise, AMSER adapts to your needs, providing a robust payment gateway that grows with your business.
           </p>
         </div>
       </section>
@@ -92,7 +92,7 @@ export default function Home() {
         <div className="max-w-xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Contact Us</h2>
           <p className="text-lg text-gray-700 mb-8">
-            Ready to get started or have questions? Reach out to our team and we'll get back to you soon.
+            Ready to get started or have questions? Reach out to our team and we&apos;ll get back to you soon.
           </p>
           <form className="flex flex-col gap-4">
             <input
