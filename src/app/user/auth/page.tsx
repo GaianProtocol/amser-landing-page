@@ -29,14 +29,14 @@ export default function UserAuth() {
       <UserHeader />
       <div className="flex-1 flex flex-col items-center justify-center px-2 py-8">
         <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
-          <h2 className="text-2xl font-bold text-center mb-6">
+          <h2 className="text-2xl font-bold text-center mb-6 text-black">
             {mode === "login" ? "User Login" : "Register"}
           </h2>
           <form onSubmit={handleSubmit} className="space-y-4">
             <input
               type="email"
               placeholder="Email"
-              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 text-black"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               autoComplete="username"
@@ -44,7 +44,7 @@ export default function UserAuth() {
             <input
               type="password"
               placeholder="Password"
-              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 text-black"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               autoComplete={mode === "login" ? "current-password" : "new-password"}
