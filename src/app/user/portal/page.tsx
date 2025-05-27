@@ -79,10 +79,51 @@ function ScanModal({ onClose, onResult }: { onClose: () => void; onResult: (resu
   );
 }
 
+function SuccessModal({ onCancel, onPay }: { onCancel: () => void; onPay: () => void }) {
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40">
+      <div className="bg-white rounded-lg p-6 flex flex-col items-center max-w-xs w-full mx-2">
+        <h3 className="text-lg font-semibold mb-4 text-center">Scan QR successful!</h3>
+        <div className="flex gap-4 w-full">
+          <button
+            className="flex-1 py-2 px-4 bg-gray-300 text-gray-800 rounded-md font-semibold hover:bg-gray-400"
+            onClick={onCancel}
+          >
+            Cancel
+          </button>
+          <button
+            className="flex-1 py-2 px-4 bg-green-600 text-white rounded-md font-semibold hover:bg-green-700"
+            onClick={onPay}
+          >
+            Pay
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function NotEnoughPointModal({ onClose }: { onClose: () => void }) {
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40">
+      <div className="bg-white rounded-lg p-6 flex flex-col items-center max-w-xs w-full mx-2">
+        <h3 className="text-lg font-semibold mb-4 text-center">You do not have enough point to make payment</h3>
+        <button
+          className="w-full py-2 px-4 bg-indigo-600 text-white rounded-md font-semibold hover:bg-indigo-700"
+          onClick={onClose}
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  );
+}
+
 export default function UserPortal() {
   const { user, logout } = useAuth();
   const [showQR, setShowQR] = useState(false);
-  const [scanResult, setScanResult] = useState<string | null>(null);
+  const [showSuccess, setShowSuccess] = useState(false);
+  const [showNotEnough, setShowNotEnough] = useState(false);
   const router = useRouter();
 
   const developer = user ? developers.find((dev) => dev.email === user.email) : null;
@@ -93,14 +134,14 @@ export default function UserPortal() {
       router.push("/user/auth");
     } else {
       setShowQR(true);
-      setScanResult(null);
     }
   }
 
   function handleLogout() {
     logout();
     setShowQR(false);
-    setScanResult(null);
+    setShowSuccess(false);
+    setShowNotEnough(false);
   }
 
   return (
@@ -122,12 +163,6 @@ export default function UserPortal() {
           >
             Scan Bank QR Code & Make Payment
           </button>
-          {scanResult && (
-            <div className="mt-4 w-full break-all text-center text-green-700">
-              <div className="font-semibold">QR Code Result:</div>
-              <div>{scanResult}</div>
-            </div>
-          )}
           {user && (
             <button
               className="w-full py-2 px-4 bg-gray-300 text-gray-800 rounded-md font-semibold hover:bg-gray-400"
@@ -140,11 +175,23 @@ export default function UserPortal() {
           {showQR && (
             <ScanModal
               onClose={() => setShowQR(false)}
-              onResult={(result) => {
-                setScanResult(result);
+              onResult={() => {
                 setShowQR(false);
+                setShowSuccess(true);
               }}
             />
+          )}
+          {showSuccess && (
+            <SuccessModal
+              onCancel={() => setShowSuccess(false)}
+              onPay={() => {
+                setShowSuccess(false);
+                setShowNotEnough(true);
+              }}
+            />
+          )}
+          {showNotEnough && (
+            <NotEnoughPointModal onClose={() => setShowNotEnough(false)} />
           )}
         </div>
       </div>
