@@ -83,7 +83,7 @@ function SuccessModal({ onCancel, onPay }: { onCancel: () => void; onPay: () => 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40">
       <div className="bg-white rounded-lg p-6 flex flex-col items-center max-w-xs w-full mx-2">
-        <h3 className="text-lg font-semibold mb-4 text-center">Scan QR successful!</h3>
+        <h3 className="text-lg font-semibold mb-4 text-center text-black">Scan QR successful!</h3>
         <div className="flex gap-4 w-full">
           <button
             className="flex-1 py-2 px-4 bg-gray-300 text-gray-800 rounded-md font-semibold hover:bg-gray-400"
@@ -107,9 +107,9 @@ function NotEnoughPointModal({ onClose }: { onClose: () => void }) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40">
       <div className="bg-white rounded-lg p-6 flex flex-col items-center max-w-xs w-full mx-2">
-        <h3 className="text-lg font-semibold mb-4 text-center">You do not have enough point to make payment</h3>
+        <h3 className="text-lg font-semibold mb-4 text-center text-black">You do not have enough point to make payment</h3>
         <button
-          className="w-full py-2 px-4 bg-indigo-600 text-white rounded-md font-semibold hover:bg-indigo-700"
+          className="w-full py-2 px-4 bg-indigo-600 text-white rounded-md font-semibold hover:bg-green-700"
           onClick={onClose}
         >
           Close
