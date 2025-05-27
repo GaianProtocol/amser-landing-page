@@ -12,9 +12,6 @@ const QrReader = dynamic(
   { ssr: false }
 );
 
-const QR_CODE_IMAGE =
-  "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=bank-payment-demo";
-
 export default function UserPortal() {
   const { user, logout } = useAuth();
   const [showQR, setShowQR] = useState(false);
@@ -74,9 +71,9 @@ export default function UserPortal() {
                 <div className="w-full flex flex-col items-center">
                   <div className="w-full max-w-xs aspect-square">
                     <QrReader
-                      onResult={(result: any, error: any) => {
-                        if (!!result) {
-                          setScanResult(result.getText());
+                      onResult={(result: unknown) => {
+                        if (result && typeof result === 'object' && 'getText' in result && typeof (result as { getText: () => string }).getText === 'function') {
+                          setScanResult((result as { getText: () => string }).getText());
                         }
                       }}
                       constraints={{ facingMode: "environment" }}

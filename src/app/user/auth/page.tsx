@@ -60,7 +60,7 @@ export default function UserAuth() {
           <div className="mt-4 text-center">
             {mode === "login" ? (
               <span>
-                Don't have an account?{' '}
+                Don&apos;t have an account?{' '}
                 <button
                   className="text-indigo-600 hover:underline"
                   onClick={() => setMode("register")}

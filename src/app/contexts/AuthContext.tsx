@@ -32,12 +32,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const login = async (email: string, password: string): Promise<boolean> => {
     try {
       // In a real app, this would be an API call
-      const storedUsers = JSON.parse(localStorage.getItem('users') || '[]');
-      const user = storedUsers.find((u: any) => u.email === email && u.password === password);
+      const storedUsers: { email: string; password: string }[] = JSON.parse(localStorage.getItem('users') || '[]');
+      const user = storedUsers.find((u) => u.email === email && u.password === password);
       
       if (user) {
         const developer = developers.find(dev => dev.email === email);
-        const userData = {
+        const userData: User = {
           email: user.email,
           points: developer?.availableBounty || 0
         };
@@ -49,7 +49,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       
       setError('Invalid email or password');
       return false;
-    } catch (err) {
+    } catch {
       setError('An error occurred during login');
       return false;
     }
@@ -57,9 +57,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const register = async (email: string, password: string): Promise<boolean> => {
     try {
-      const storedUsers = JSON.parse(localStorage.getItem('users') || '[]');
+      const storedUsers: { email: string; password: string }[] = JSON.parse(localStorage.getItem('users') || '[]');
       
-      if (storedUsers.some((u: any) => u.email === email)) {
+      if (storedUsers.some((u) => u.email === email)) {
         setError('Email already registered');
         return false;
       }
@@ -68,7 +68,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       storedUsers.push(newUser);
       localStorage.setItem('users', JSON.stringify(storedUsers));
 
-      const userData = {
+      const userData: User = {
         email,
         points: 0
       };
@@ -76,7 +76,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       localStorage.setItem('user', JSON.stringify(userData));
       setError('');
       return true;
-    } catch (err) {
+    } catch {
       setError('An error occurred during registration');
       return false;
     }
