@@ -31,9 +31,9 @@ const activities = [
 
 export default function RecentActivity() {
   return (
-    <div className="bg-white rounded-lg border border-gray-200 p-6 mb-6">
+    <div className="bg-white rounded-lg pt-8">
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-lg font-semibold">RECENT ACTIVITY</h2>
+        <h2 className="text-sm text-gray-400 ">RECENT ACTIVITY</h2>
         <Link href="#" className="text-blue-600 text-sm flex items-center">
           View All
           <ArrowRight className="ml-1 w-3 h-3" />
@@ -43,9 +43,9 @@ export default function RecentActivity() {
       <div className="space-y-4">
         {activities.map((activity, index) => (
           <div key={index} className="flex items-start gap-2">
-            <Avatar className="w-8 h-8">
+            <Avatar className="w-8 h-8 bg-gray-200">
               <AvatarImage src={`/placeholder.svg?text=${activity.avatar}`} />
-              <AvatarFallback>{activity.avatar}</AvatarFallback>
+              <AvatarFallback className="text-xs">{activity.avatar}</AvatarFallback>
             </Avatar>
             <div>
               <div className="text-sm">
