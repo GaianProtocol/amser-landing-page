@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react"
+import Image from "next/image"
 
 export default function SponsorCard() {
   return (
@@ -10,26 +11,7 @@ export default function SponsorCard() {
         </h3>
         <p className="text-sm text-gray-600">Reach 0+ crypto talent from one single dashboard</p>
       </div>
-      <div className="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="text-blue-600"
-        >
-          <rect width="18" height="18" x="3" y="3" rx="2" />
-          <path d="M7 7h.01" />
-          <path d="M17 7h.01" />
-          <path d="M7 17h.01" />
-          <path d="M17 17h.01" />
-        </svg>
-      </div>
+        <Image src={"/work.webp"} alt="Work" width={48} height={48} />
     </div>
   )
 }

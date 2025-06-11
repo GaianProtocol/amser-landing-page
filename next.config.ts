@@ -1,8 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**", // Wildcard to allow all hostnames
+        pathname: "**", // Wildcard to allow all paths
+      },
+    ],
   },
-}
+};
 
-module.exports = nextConfig
+export default nextConfig;
