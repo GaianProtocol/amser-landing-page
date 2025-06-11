@@ -27,6 +27,10 @@ interface Listing {
     name: string;
     logo: string;
   };
+  _count: {
+    Comments: number;
+    Submission: number;
+  };
 }
 export default function Home() {
   const { user, logout } = useAuth();
@@ -237,7 +241,7 @@ export default function Home() {
                     </Badge>
                   </div>
 
-                  <TabsContent value="all" className="space-y-4">
+                  <TabsContent value="all" className="space-y-1">
                     {listings?.map((listing) => (
                       <OpportunityCard
                         key={listing.id}
@@ -247,12 +251,13 @@ export default function Home() {
                         dueDate={getDaysLeft(listing.deadline)}
                         amount={listing.rewardAmount}
                         currency={listing.token}
+                          totalSubmission={listing._count.Submission}
                         logo={listing.sponsor.logo}
                       />
                     ))}
                   </TabsContent>
 
-                  <TabsContent value="bounties" className="space-y-4">
+                  <TabsContent value="bounties" className="space-y-1">
                     {listings
                       ?.filter((listing) => listing.type === "bounty")
                       .map((listing) => (
@@ -265,11 +270,12 @@ export default function Home() {
                           amount={listing.rewardAmount}
                           logo={listing.sponsor.logo}
                           currency={listing.token}
+                          totalSubmission={listing._count.Submission}
                         />
                       ))}
                   </TabsContent>
 
-                  <TabsContent value="projects" className="space-y-4">
+                  <TabsContent value="projects" className="space-y-1">
                     {listings
                       ?.filter((listing) => listing.type === "project")
                       .map((listing) => (
@@ -281,6 +287,7 @@ export default function Home() {
                           dueDate={getDaysLeft(listing.deadline)}
                           amount={listing.rewardAmount}
                           logo={listing.sponsor.logo}
+                          totalSubmission={listing._count.Submission}
                           currency={listing.token}
                         />
                       ))}

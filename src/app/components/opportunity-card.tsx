@@ -13,6 +13,7 @@ interface OpportunityCardProps {
   amountRange?: string;
   currency: string;
   logo: string;
+  totalSubmission: number;
 }
 
 export default function OpportunityCard({
@@ -24,31 +25,32 @@ export default function OpportunityCard({
   amountRange,
   currency,
   logo,
+  totalSubmission
 }: OpportunityCardProps) {
   return (
-    <Card className="p-4 hover:shadow-md transition-shadow cursor-pointer gap-0">
+    <Card className="p-4 hover:shadow-md transition-shadow shadow-none border-none cursor-pointer gap-0">
       <div className="flex gap-4">
-        <div className="w-12 h-12 rounded overflow-hidden flex-shrink-0">
+        <div className="w-16 h-16 rounded overflow-hidden flex-shrink-0">
           {logo && (
             <Image
               src={logo}
               alt={organization}
-              width={48}
-              height={48}
+              width={64}
+              height={64}
               className="object-cover"
             />
           )}
         </div>
 
         <div className="flex-1">
-          <h3 className="font-medium text-base mb-1">{title}</h3>
-          <div className="flex items-center text-sm text-gray-600 mb-2">
+          <h3 className="font-medium text-base ">{title}</h3>
+          <div className="flex items-center text-xs text-gray-600 mb-1">
             <span>{organization}</span>
           </div>
 
           <div className="max-md:hidden flex items-center gap-3 text-xs text-gray-500">
             <Badge
-              variant={"outline"}
+              variant={"default"}
               className="rounded-full capitalize text-xs font-normal"
             >
               {type}
@@ -61,7 +63,7 @@ export default function OpportunityCard({
 
             <div className="flex items-center gap-1">
               <Circle className="w-2 h-2 fill-green-500 text-green-500" />
-              <span>1</span>
+              <span>{totalSubmission}</span>
             </div>
           </div>
         </div>
@@ -81,7 +83,7 @@ export default function OpportunityCard({
       </div>
       <div className="md:hidden flex items-center gap-3 text-xs text-gray-500 pl-16">
         <Badge
-          variant={"outline"}
+          variant={"default"}
           className="rounded-full capitalize text-xs font-normal"
         >
           {type}
@@ -94,7 +96,7 @@ export default function OpportunityCard({
 
         <div className="flex items-center gap-1">
           <Circle className="w-2 h-2 fill-green-500 text-green-500" />
-          <span>1</span>
+           <span>{totalSubmission}</span>
         </div>
       </div>
     </Card>
