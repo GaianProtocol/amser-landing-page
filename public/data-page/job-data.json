@@ -1,0 +1,1412 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    "rewardAmount": 35000000,
+    "deadline": "2025-09-15T23:59:59.000Z",
+    "type": "bounty",
+    "title": "E-commerce Platform for Local Artisans",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "e-commerce-platform-local-artisans",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 12,
+      "Submission": 3
+    },
+    "sponsor": {
+      "name": "Craft-Connect",
+      "slug": "craft-connect",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🛍️ E-commerce Platform for Local Artisans</h1></div><p class=\"text-gray-600 text-sm\">Build a full-featured e-commerce website to empower local artisans to sell their products online. This project will include user authentication, product management, a secure payment gateway, and order tracking.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 35,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A responsive e-commerce platform with a focus on user experience and performance. Key features include artisan profiles, product listings with high-quality images, a shopping cart, and integration with a local payment provider.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Deploy the platform to a publicly accessible URL.</span></li><li>2. <span>Share a demo video showcasing the platform's features.</span></li><li>3. <span>Submit the source code via a private GitHub repository.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 90 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8901-2345-67890abcdef1",
+    "rewardAmount": 28000000,
+    "deadline": "2025-10-01T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Mobile Banking App with Biometric Security",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "mobile-banking-app-biometric-security",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 8,
+      "Submission": 1
+    },
+    "sponsor": {
+      "name": "FinSecure",
+      "slug": "finsecure",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">📱 Mobile Banking App with Biometric Security</h1></div><p class=\"text-gray-600 text-sm\">Develop a secure and user-friendly mobile banking application for iOS and Android. The app must include biometric authentication (fingerprint and face ID), fund transfers, and bill payments.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 28,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A native mobile app with a clean UI/UX, robust security features, and seamless integration with a core banking API. The app should allow users to view their account balance, transaction history, and perform various financial transactions.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Provide the app builds for both iOS and Android.</span></li><li>2. <span>Create a comprehensive user manual.</span></li><li>3. <span>Submit the source code and documentation.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 120 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9012-3456-7890abcdef12",
+    "rewardAmount": 15000000,
+    "deadline": "2025-08-20T23:59:59.000Z",
+    "type": "bounty",
+    "title": "AI-Powered Customer Support Chatbot",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "ai-customer-support-chatbot",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 25,
+      "Submission": 8
+    },
+    "sponsor": {
+      "name": "Supportify",
+      "slug": "supportify",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": false,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🤖 AI-Powered Customer Support Chatbot</h1></div><p class=\"text-gray-600 text-sm\">Create an intelligent chatbot that can handle customer queries, provide product information, and escalate complex issues to human agents. The chatbot should integrate with our existing CRM and knowledge base.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 15,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A chatbot with natural language processing (NLP) capabilities, a conversational UI, and the ability to learn from interactions. The chatbot should be deployable on our website and social media channels.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Provide a live demo of the chatbot.</span></li><li>2. <span>Submit the chatbot's training data and model.</span></li><li>3. <span>Deliver the complete source code and deployment guide.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 60 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "d4e5f6a7-b8c9-0123-4567-890abcdef123",
+    "rewardAmount": 38000000,
+    "deadline": "2025-11-10T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Healthcare Management System for Clinics",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "healthcare-management-system-clinics",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 15,
+      "Submission": 2
+    },
+    "sponsor": {
+      "name": "MediCare Solutions",
+      "slug": "medicare-solutions",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🩺 Healthcare Management System for Clinics</h1></div><p class=\"text-gray-600 text-sm\">Design and develop a comprehensive healthcare management system for small to medium-sized clinics. The system should manage patient records, appointments, billing, and inventory.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 38,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A web-based application with role-based access control for doctors, nurses, and administrative staff. Key modules include patient registration, electronic health records (EHR), appointment scheduling, and financial reporting.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Set up a staging server with the complete system.</span></li><li>2. <span>Provide detailed documentation for all features.</span></li><li>3. <span>Submit the source code and database schema.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 150 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "e5f6a7b8-c9d0-1234-5678-90abcdef1234",
+    "rewardAmount": 22000000,
+    "deadline": "2025-09-30T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Logistics and Supply Chain Management Dashboard",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "logistics-supply-chain-dashboard",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 18,
+      "Submission": 5
+    },
+    "sponsor": {
+      "name": "LogiTrack",
+      "slug": "logitrac",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🚚 Logistics and Supply Chain Management Dashboard</h1></div><p class=\"text-gray-600 text-sm\">Develop a real-time dashboard for monitoring and managing logistics and supply chain operations. The dashboard should visualize key performance indicators (KPIs) and provide actionable insights.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 22,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A data-driven dashboard with interactive charts, maps, and tables. The dashboard should track shipments, inventory levels, and delivery times, and integrate with our existing ERP system.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Present a live demo of the dashboard with sample data.</span></li><li>2. <span>Submit the dashboard's design files and source code.</span></li><li>3. <span>Provide a guide on how to connect the dashboard to a new data source.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 75 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "f6a7b8c9-d0e1-2345-6789-0abcdef12345",
+    "rewardAmount": 32000000,
+    "deadline": "2025-11-25T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Custom CRM for a Real Estate Agency",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "custom-crm-real-estate",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 22,
+      "Submission": 4
+    },
+    "sponsor": {
+      "name": "PropLeads",
+      "slug": "propleads",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🏘️ Custom CRM for a Real Estate Agency</h1></div><p class=\"text-gray-600 text-sm\">Build a bespoke Customer Relationship Management (CRM) system tailored to the needs of a real estate agency. The CRM should manage leads, properties, and client interactions.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 32,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A web-based CRM with a centralized database of clients and properties. Features should include lead tracking, appointment scheduling, and automated follow-ups.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Deliver a fully functional CRM application.</span></li><li>2. <span>Provide a comprehensive user guide and training materials.</span></li><li>3. <span>Submit the source code and database migration scripts.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 100 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "a7b8c9d0-e1f2-3456-7890-bcdef123456",
+    "rewardAmount": 18000000,
+    "deadline": "2025-09-05T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Social Media Analytics Dashboard",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "social-media-analytics-dashboard",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 30,
+      "Submission": 10
+    },
+    "sponsor": {
+      "name": "SocialPulse",
+      "slug": "socialpulse",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": false,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">📊 Social Media Analytics Dashboard</h1></div><p class=\"text-gray-600 text-sm\">Create a dashboard to track and analyze social media performance across multiple platforms. The dashboard should provide insights into engagement, reach, and audience growth.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 18,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A dashboard that integrates with major social media APIs (Facebook, Twitter, Instagram). It should feature customizable widgets and data visualizations to display key metrics.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Provide a link to the live dashboard.</span></li><li>2. <span>Submit the design files (Figma, Sketch, etc.).</span></li><li>3. <span>Deliver the complete source code.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 50 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "b8c9d0e1-f2a3-4567-8901-cdef1234567",
+    "rewardAmount": 25000000,
+    "deadline": "2025-10-20T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Online Learning Platform with Video Streaming",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "online-learning-platform-video-streaming",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 14,
+      "Submission": 4
+    },
+    "sponsor": {
+      "name": "EduStream",
+      "slug": "edustream",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🎓 Online Learning Platform with Video Streaming</h1></div><p class=\"text-gray-600 text-sm\">Develop a robust online learning platform that supports video lectures, quizzes, and student forums. The platform should be scalable and provide a seamless learning experience.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 25,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A web platform with course creation tools, user management, and a secure video streaming service. Features should include progress tracking, certificates of completion, and discussion boards.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Deploy a demo version of the platform.</span></li><li>2. <span>Create a presentation outlining the platform's architecture.</span></li><li>3. <span>Submit the full source code and technical documentation.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 90 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "c9d0e1f2-a3b4-5678-9012-def12345678",
+    "rewardAmount": 19000000,
+    "deadline": "2025-09-25T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Gamified Fitness App for Home Workouts",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "gamified-fitness-app-home-workouts",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 28,
+      "Submission": 9
+    },
+    "sponsor": {
+      "name": "FitQuest",
+      "slug": "fitquest",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">💪 Gamified Fitness App for Home Workouts</h1></div><p class=\"text-gray-600 text-sm\">Create an engaging fitness app that uses gamification to motivate users to exercise at home. The app should feature workout plans, progress tracking, and social challenges.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 19,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A mobile app for iOS and Android with a library of workout videos, customizable routines, and a points and badges system. Users should be able to connect with friends and compete on leaderboards.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Submit the app to the App Store and Google Play.</span></li><li>2. <span>Provide a marketing plan for user acquisition.</span></li><li>3. <span>Deliver the source code and all design assets.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 80 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "d0e1f2a3-b4c5-6789-0123-ef123456789",
+    "rewardAmount": 29000000,
+    "deadline": "2025-12-01T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Restaurant Reservation and Table Management System",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "restaurant-reservation-table-management",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 16,
+      "Submission": 3
+    },
+    "sponsor": {
+      "name": "DineEase",
+      "slug": "dineease",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🍽️ Restaurant Reservation and Table Management System</h1></div><p class=\"text-gray-600 text-sm\">Build a system that allows customers to make online reservations and helps restaurants manage their tables efficiently. The system should reduce wait times and improve the dining experience.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 29,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A web-based system with a customer-facing reservation portal and a restaurant-facing dashboard. The dashboard should display table layouts, reservation statuses, and guest information.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Provide a live demo of the complete system.</span></li><li>2. <span>Submit user manuals for both customers and restaurant staff.</span></li><li>3. <span>Deliver the source code and database design.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 95 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "e1f2a3b4-c5d6-7890-1234-f1234567890",
+    "rewardAmount": 33000000,
+    "deadline": "2025-11-15T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Peer-to-Peer Car-Sharing Platform",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "p2p-car-sharing-platform",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 20,
+      "Submission": 6
+    },
+    "sponsor": {
+      "name": "RideLink",
+      "slug": "ridelink",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🚗 Peer-to-Peer Car-Sharing Platform</h1></div><p class=\"text-gray-600 text-sm\">Develop a platform that connects car owners with people who need to rent a car. The platform should handle bookings, payments, and insurance.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 33,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A web and mobile platform with user profiles, car listings, a booking calendar, and a secure payment system. The platform should also include a review and rating system for both owners and renters.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Launch the platform with a pilot program in a specific city.</span></li><li>2. <span>Create a video tutorial explaining how the platform works.</span></li><li>3. <span>Submit the complete source code and infrastructure details.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 130 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "f2a3b4c5-d6e7-8901-2345-1234567890a",
+    "rewardAmount": 26000000,
+    "deadline": "2025-10-15T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Personalized News Aggregator App",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "personalized-news-aggregator-app",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 24,
+      "Submission": 7
+    },
+    "sponsor": {
+      "name": "NewsGenius",
+      "slug": "newsgenius",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": false,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">📰 Personalized News Aggregator App</h1></div><p class=\"text-gray-600 text-sm\">Create a news aggregator app that uses machine learning to provide users with a personalized news feed. The app should learn from user preferences and behavior.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 26,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A mobile app for iOS and Android with a content recommendation engine. The app should pull news from various sources, categorize articles, and allow users to customize their feed.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Provide the app builds for testing.</span></li><li>2. <span>Submit a report on the performance of the recommendation algorithm.</span></li><li>3. <span>Deliver the source code and the trained machine learning model.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 85 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "a3b4c5d6-e7f8-9012-3456-234567890ab",
+    "rewardAmount": 36000000,
+    "deadline": "2025-12-10T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Smart Home Automation System",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "smart-home-automation-system",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 19,
+      "Submission": 5
+    },
+    "sponsor": {
+      "name": "HomeSphere",
+      "slug": "homesphere",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">💡 Smart Home Automation System</h1></div><p class=\"text-gray-600 text-sm\">Develop a centralized system for controlling smart home devices. The system should be compatible with popular smart home brands and offer a unified user interface.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 36,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A web and mobile application that allows users to control lighting, temperature, and security cameras. The system should support custom automation rules and voice commands.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Demonstrate the system's integration with at least three different smart device brands.</span></li><li>2. <span>Provide a video showcasing the system in a real-world home environment.</span></li><li>3. <span>Submit the complete source code and hardware schematics (if any).</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 140 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "b4c5d6e7-f8a9-0123-4567-34567890abc",
+    "rewardAmount": 23000000,
+    "deadline": "2025-11-05T23:59:59.000Z",
+    "type": "bounty",
+    "title": "AI-Powered Language Learning App",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "ai-language-learning-app",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 26,
+      "Submission": 8
+    },
+    "sponsor": {
+      "name": "LingoLeap",
+      "slug": "lingoleap",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🌐 AI-Powered Language Learning App</h1></div><p class=\"text-gray-600 text-sm\">Create an interactive language learning app that uses AI to personalize lessons and provide real-time feedback. The app should make learning a new language fun and effective.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 23,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A mobile app with features like speech recognition for pronunciation practice, gamified quizzes, and a chatbot for conversational practice. The app should support multiple languages.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Submit the app for review on the App Store and Google Play.</span></li><li>2. <span>Provide a detailed report on the app's AI features.</span></li><li>3. <span>Deliver the source code and all learning content.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 90 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "c5d6e7f8-a9b0-1234-5678-4567890abcd",
+    "rewardAmount": 30000000,
+    "deadline": "2025-12-20T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Blockchain-Based Voting System",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "blockchain-voting-system",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 35,
+      "Submission": 12
+    },
+    "sponsor": {
+      "name": "VeriVote",
+      "slug": "verivote",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🔗 Blockchain-Based Voting System</h1></div><p class=\"text-gray-600 text-sm\">Develop a secure and transparent voting system using blockchain technology. The system should ensure the integrity of the voting process and protect against fraud.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 30,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A decentralized application (dApp) that allows for voter registration, ballot casting, and real-time vote counting. The system should be built on a public blockchain like Ethereum.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Deploy the dApp to a testnet.</span></li><li>2. <span>Provide a whitepaper explaining the system's design and security features.</span></li><li>3. <span>Submit the smart contracts and the frontend source code.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 110 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "d6e7f8a9-b0c1-2345-6789-567890abcde",
+    "rewardAmount": 21000000,
+    "deadline": "2025-11-20T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Augmented Reality App for Furniture Placement",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "ar-furniture-placement-app",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 23,
+      "Submission": 7
+    },
+    "sponsor": {
+      "name": "FurnishAR",
+      "slug": "furnishar",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": false,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🛋️ Augmented Reality App for Furniture Placement</h1></div><p class=\"text-gray-600 text-sm\">Create an AR app that allows users to visualize furniture in their homes before buying. The app should provide a realistic and immersive experience.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 21,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A mobile app for iOS and Android that uses ARKit and ARCore to place 3D models of furniture in a user's room. The app should have a catalog of furniture and allow for easy manipulation of the 3D models.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Submit the app with a sample catalog of 3D furniture models.</span></li><li>2. <span>Create a demo video showcasing the app's functionality.</span></li><li>3. <span>Deliver the source code and all 3D assets.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 80 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "e7f8a9b0-c1d2-3456-7890-67890abcdef",
+    "rewardAmount": 37000000,
+    "deadline": "2026-01-10T23:59:59.000Z",
+    "type": "bounty",
+    "title": "AI-Powered Financial Portfolio Management Tool",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "ai-financial-portfolio-management",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 28,
+      "Submission": 6
+    },
+    "sponsor": {
+      "name": "WealthWise",
+      "slug": "wealthwise",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">💰 AI-Powered Financial Portfolio Management Tool</h1></div><p class=\"text-gray-600 text-sm\">Develop a tool that uses AI to analyze financial markets and provide personalized investment recommendations. The tool should help users optimize their investment portfolios.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 37,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A web-based platform with a portfolio analysis dashboard, a robo-advisor for investment suggestions, and real-time market data integration. The tool should use machine learning to predict market trends.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Provide a backtesting report of the AI's investment strategies.</span></li><li>2. <span>Deliver a fully functional web platform.</span></li><li>3. <span>Submit the source code and the machine learning models.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 160 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "f8a9b0c1-d2e3-4567-8901-7890abcdef1",
+    "rewardAmount": 24000000,
+    "deadline": "2025-12-15T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Cloud-Based Project Management Tool",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "cloud-project-management-tool",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 32,
+      "Submission": 11
+    },
+    "sponsor": {
+      "name": "TaskFlow",
+      "slug": "taskflow",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">📝 Cloud-Based Project Management Tool</h1></div><p class=\"text-gray-600 text-sm\">Create a collaborative project management tool that helps teams plan, track, and manage their work. The tool should be intuitive and feature-rich.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 24,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A web application with features like task management, Gantt charts, file sharing, and team communication. The tool should support multiple projects and user roles.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Deploy the tool to a cloud server.</span></li><li>2. <span>Provide a user documentation and a feature roadmap.</span></li><li>3. <span>Submit the full source code and database schema.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 90 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "a9b0c1d2-e3f4-5678-9012-890abcdef12",
+    "rewardAmount": 39000000,
+    "deadline": "2026-02-01T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Decentralized Social Media Platform",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "decentralized-social-media-platform",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 40,
+      "Submission": 15
+    },
+    "sponsor": {
+      "name": "FreedomNet",
+      "slug": "freedomnet",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🌐 Decentralized Social Media Platform</h1></div><p class=\"text-gray-600 text-sm\">Build a social media platform that is resistant to censorship and gives users control over their data. The platform should be built on a decentralized architecture.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 39,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A platform with user profiles, content posting, and a peer-to-peer data storage system. The platform should have a governance model that allows the community to make decisions.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Launch a public beta of the platform.</span></li><li>2. <span>Publish a technical whitepaper detailing the platform's architecture.</span></li><li>3. <span>Submit the source code and all related documentation.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 180 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "b0c1d2e3-f4a5-6789-0123-90abcdef123",
+    "rewardAmount": 20000000,
+    "deadline": "2025-12-30T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Recipe and Meal Planning App",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "recipe-meal-planning-app",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 27,
+      "Submission": 9
+    },
+    "sponsor": {
+      "name": "CuliPlate",
+      "slug": "culiplate",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": false,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🍳 Recipe and Meal Planning App</h1></div><p class=\"text-gray-600 text-sm\">Create an app that helps users discover new recipes, plan their meals, and generate shopping lists. The app should have a large database of recipes and a user-friendly interface.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 20,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A mobile app with recipe search and filtering, a meal planner with a drag-and-drop interface, and an automated shopping list generator. The app should also allow users to save their favorite recipes.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Submit the app with a pre-populated database of at least 500 recipes.</span></li><li>2. <span>Provide a video walkthrough of the app's features.</span></li><li>3. <span>Deliver the source code and the recipe database.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 70 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "c1d2e3f4-a5b6-7890-1234-0abcdef1234",
+    "rewardAmount": 34000000,
+    "deadline": "2026-01-20T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Virtual Event Platform with Networking Features",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "virtual-event-platform-networking",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 29,
+      "Submission": 7
+    },
+    "sponsor": {
+      "name": "EventSphere",
+      "slug": "eventsphere",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🌐 Virtual Event Platform with Networking Features</h1></div><p class=\"text-gray-600 text-sm\">Develop a platform for hosting virtual events that includes interactive features to facilitate networking among attendees. The platform should support live streaming, breakout sessions, and virtual booths.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 34,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A web-based platform with a virtual lobby, multiple event stages, and networking lounges. The platform should have tools for Q&A, polls, and one-on-one video calls.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Host a demo virtual event on the platform.</span></li><li>2. <span>Provide case studies of successful virtual events hosted on the platform.</span></li><li>3. <span>Submit the full source code and deployment instructions.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 120 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "c1d2e3f4-a5b6-7890-1234-0abcdef1235",
+    "rewardAmount": 34000000,
+    "deadline": "2026-01-20T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Virtual Event Platform with Networking Features",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "virtual-event-platform-networking",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 29,
+      "Submission": 7
+    },
+    "sponsor": {
+      "name": "EventSphere",
+      "slug": "eventsphere",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🌐 Virtual Event Platform with Networking Features</h1></div><p class=\"text-gray-600 text-sm\">Develop a platform for hosting virtual events that includes interactive features to facilitate networking among attendees. The platform should support live streaming, breakout sessions, and virtual booths.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 34,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A web-based platform with a virtual lobby, multiple event stages, and networking lounges. The platform should have tools for Q&A, polls, and one-on-one video calls.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Host a demo virtual event on the platform.</span></li><li>2. <span>Provide case studies of successful virtual events hosted on the platform.</span></li><li>3. <span>Submit the full source code and deployment instructions.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 120 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "d2e3f4a5-b6c7-8901-2345-1bcdef23456",
+    "rewardAmount": 27000000,
+    "deadline": "2025-11-30T23:59:59.000Z",
+    "type": "bounty",
+    "title": "AI-Powered Recruitment Platform",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "ai-recruitment-platform",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 31,
+      "Submission": 8
+    },
+    "sponsor": {
+      "name": "HireAI",
+      "slug": "hireai",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🤖 AI-Powered Recruitment Platform</h1></div><p class=\"text-gray-600 text-sm\">Create a platform that uses AI to streamline the recruitment process. The platform should help companies find and hire the right talent more efficiently.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 27,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A platform with features like resume parsing, candidate matching, and automated interview scheduling. The platform should use machine learning to rank candidates based on job requirements.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Provide a live demo of the platform with a sample job posting.</span></li><li>2. <span>Submit a report on the accuracy of the candidate matching algorithm.</span></li><li>3. <span>Deliver the full source code and the AI models.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 100 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "e3f4a5b6-c7d8-9012-3456-2cdef345678",
+    "rewardAmount": 31000000,
+    "deadline": "2026-01-15T23:59:59.000Z",
+    "type": "bounty",
+    "title": "IoT-Based Smart Agriculture System",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "iot-smart-agriculture-system",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 26,
+      "Submission": 5
+    },
+    "sponsor": {
+      "name": "AgroTech",
+      "slug": "agrotech",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🌿 IoT-Based Smart Agriculture System</h1></div><p class=\"text-gray-600 text-sm\">Develop a system that uses IoT devices to monitor and control farm conditions. The system should help farmers optimize resource usage and increase crop yields.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 31,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A system with sensors for monitoring soil moisture, temperature, and humidity. The system should have a central dashboard for data visualization and a mobile app for remote control of irrigation systems.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Set up a prototype of the system on a small farm.</span></li><li>2. <span>Provide a report on the system's impact on water conservation and crop growth.</span></li><li>3. <span>Submit the source code, hardware designs, and all sensor data.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 130 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "f4a5b6c7-d8e9-0123-4567-3def4567890",
+    "rewardAmount": 28000000,
+    "deadline": "2025-12-25T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Mental Health and Wellness App",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "mental-health-wellness-app",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 33,
+      "Submission": 10
+    },
+    "sponsor": {
+      "name": "MindWell",
+      "slug": "mindwell",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🧘 Mental Health and Wellness App</h1></div><p class=\"text-gray-600 text-sm\">Create an app that provides resources and support for mental health and well-being. The app should offer guided meditations, mood tracking, and access to licensed therapists.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 28,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A mobile app with a calming user interface and a variety of wellness tools. Features should include a library of guided meditations, a journaling function, and a secure chat feature for therapy sessions.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Submit the app with a comprehensive content library.</span></li><li>2. <span>Provide a plan for ensuring user privacy and data security.</span></li><li>3. <span>Deliver the source code and all app content.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 95 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "a5b6c7d8-e9f0-1234-5678-4ef56789012",
+    "rewardAmount": 35000000,
+    "deadline": "2026-02-10T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Cybersecurity Threat Intelligence Platform",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "cybersecurity-threat-intelligence-platform",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 30,
+      "Submission": 8
+    },
+    "sponsor": {
+      "name": "CyberSecure",
+      "slug": "cybersecure",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🛡️ Cybersecurity Threat Intelligence Platform</h1></div><p class=\"text-gray-600 text-sm\">Develop a platform that aggregates and analyzes threat intelligence data from multiple sources. The platform should help organizations identify and mitigate cybersecurity risks.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 35,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A platform with a threat intelligence feed, a dashboard for visualizing threat data, and tools for incident response. The platform should use machine learning to detect emerging threats.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Demonstrate the platform's ability to ingest and process data from various threat feeds.</span></li><li>2. <span>Provide a report on the platform's threat detection capabilities.</span></li><li>3. <span>Submit the source code and the machine learning models.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 150 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "b6c7d8e9-f0a1-2345-6789-5f678901234",
+    "rewardAmount": 29000000,
+    "deadline": "2026-01-05T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Subscription Box Service Management Platform",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "subscription-box-service-management",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 25,
+      "Submission": 6
+    },
+    "sponsor": {
+      "name": "Subbly",
+      "slug": "subbly",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">📦 Subscription Box Service Management Platform</h1></div><p class=\"text-gray-600 text-sm\">Create a platform for managing subscription box businesses. The platform should handle subscriber management, recurring billing, and order fulfillment.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 29,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A web-based platform with a merchant dashboard, a customer self-service portal, and integration with shipping carriers. The platform should support different subscription models.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Provide a live demo of the platform with a sample subscription box business.</span></li><li>2. <span>Submit user guides for both merchants and customers.</span></li><li>3. <span>Deliver the full source code and database schema.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 110 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "c7d8e9f0-a1b2-3456-7890-6a789012345",
+    "rewardAmount": 32000000,
+    "deadline": "2026-02-20T23:59:59.000Z",
+    "type": "bounty",
+    "title": "AI-Powered Content Creation Tool",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "ai-content-creation-tool",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 34,
+      "Submission": 11
+    },
+    "sponsor": {
+      "name": "ContentBot",
+      "slug": "contentbot",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": false,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">✍️ AI-Powered Content Creation Tool</h1></div><p class=\"text-gray-600 text-sm\">Develop a tool that uses AI to help users create high-quality content, such as blog posts, social media updates, and marketing copy. The tool should generate content based on user inputs.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 32,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A web-based tool with a text editor, a content generation engine, and templates for different content types. The tool should use natural language generation (NLG) to create human-like text.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Provide a demo of the tool generating content for various use cases.</span></li><li>2. <span>Submit a report on the quality and coherence of the generated content.</span></li><li>3. <span>Deliver the source code and the AI models.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 120 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "d8e9f0a1-b2c3-4567-8901-7b890123456",
+    "rewardAmount": 26000000,
+    "deadline": "2026-01-25T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Charity and Donation Platform",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "charity-donation-platform",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 28,
+      "Submission": 9
+    },
+    "sponsor": {
+      "name": "GiveWell",
+      "slug": "givewell",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">💖 Charity and Donation Platform</h1></div><p class=\"text-gray-600 text-sm\">Create a platform that connects donors with charitable organizations. The platform should make it easy for people to donate to causes they care about.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 26,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A web platform with profiles for charities, fundraising campaigns, and a secure donation processing system. The platform should provide transparency by showing how donations are used.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Launch the platform with a number of verified charities onboard.</span></li><li>2. <span>Create a marketing campaign to promote the platform to potential donors.</span></li><li>3. <span>Submit the full source code and documentation.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 100 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "e9f0a1b2-c3d4-5678-9012-8c901234567",
+    "rewardAmount": 38000000,
+    "deadline": "2026-03-10T23:59:59.000Z",
+    "type": "bounty",
+    "title": "3D Modeling and Design Software",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "3d-modeling-design-software",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 36,
+      "Submission": 10
+    },
+    "sponsor": {
+      "name": "ShapeShift",
+      "slug": "shapeshift",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🎨 3D Modeling and Design Software</h1></div><p class=\"text-gray-600 text-sm\">Develop a powerful and intuitive 3D modeling and design software for professionals and hobbyists. The software should have a wide range of tools for creating and editing 3D models.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 38,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A desktop application with a modern user interface and a robust set of modeling, sculpting, and texturing tools. The software should support various file formats and have a plugin architecture for extensibility.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Provide a stable beta version of the software for Windows, macOS, and Linux.</span></li><li>2. <span>Create a series of tutorials demonstrating the software's key features.</span></li><li>3. <span>Submit the complete source code and a detailed development roadmap.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 200 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "f0a1b2c3-d4e5-6789-0123-9d012345678",
+    "rewardAmount": 22000000,
+    "deadline": "2026-02-05T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Music Composition and Production Software",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "music-composition-production-software",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 31,
+      "Submission": 9
+    },
+    "sponsor": {
+      "name": "SoundForge",
+      "slug": "soundforge",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": false,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🎵 Music Composition and Production Software</h1></div><p class=\"text-gray-600 text-sm\">Create a digital audio workstation (DAW) for music composition, recording, and production. The software should be powerful enough for professionals but accessible to beginners.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 22,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A DAW with a multi-track editor, a library of virtual instruments and effects, and support for MIDI and audio recording. The software should have a flexible and customizable user interface.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Provide a stable version of the software with a collection of sample projects.</span></li><li>2. <span>Submit a user manual and a series of video tutorials.</span></li><li>3. <span>Deliver the source code and all included assets.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 150 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-1234-abcdef12345",
+    "rewardAmount": 40000000,
+    "deadline": "2026-04-01T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Open-Source Operating System for IoT Devices",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "open-source-os-iot-devices",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 50,
+      "Submission": 20
+    },
+    "sponsor": {
+      "name": "IoT Foundation",
+      "slug": "iot-foundation",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">⚙️ Open-Source Operating System for IoT Devices</h1></div><p class=\"text-gray-600 text-sm\">Develop a lightweight and secure open-source operating system specifically designed for IoT devices. The OS should be modular and easily adaptable to different hardware platforms.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 40,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">An operating system with a small memory footprint, a real-time kernel, and a secure networking stack. The OS should have a clear and well-documented API for application development.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Release the OS under an open-source license on GitHub.</span></li><li>2. <span>Provide comprehensive documentation and a getting-started guide.</span></li><li>3. <span>Demonstrate the OS running on at least two different IoT devices.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 250 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9012-3456-abcdef123456",
+    "rewardAmount": 16000000,
+    "deadline": "2025-08-25T23:59:59.000Z",
+    "type": "bounty",
+    "title": "AI-Powered Customer Feedback Analysis Tool",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "ai-customer-feedback-analysis",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 28,
+      "Submission": 9
+    },
+    "sponsor": {
+      "name": "Feedbackify",
+      "slug": "feedbackify",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": false,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🗣️ AI-Powered Customer Feedback Analysis Tool</h1></div><p class=\"text-gray-600 text-sm\">Create a tool that uses AI to analyze customer feedback from various sources (surveys, reviews, social media) and extract actionable insights. The tool should help businesses understand customer sentiment and identify areas for improvement.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 16,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A tool with natural language processing (NLP) capabilities for sentiment analysis, topic modeling, and keyword extraction. The tool should have a dashboard for visualizing the analysis results.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Provide a live demo of the tool analyzing a sample dataset of customer feedback.</span></li><li>2. <span>Submit a report on the accuracy of the NLP models.</span></li><li>3. <span>Deliver the complete source code and the trained models.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 65 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "d4e5f6a7-b8c9-0123-4567-bcdef1234567",
+    "rewardAmount": 37000000,
+    "deadline": "2025-11-15T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Healthcare Data Analytics Platform",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "healthcare-data-analytics-platform",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 18,
+      "Submission": 3
+    },
+    "sponsor": {
+      "name": "Healthytics",
+      "slug": "healthytics",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">📊 Healthcare Data Analytics Platform</h1></div><p class=\"text-gray-600 text-sm\">Design and develop a platform for analyzing large datasets of healthcare information. The platform should help researchers and healthcare providers identify trends, predict outcomes, and improve patient care.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 37,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A platform with tools for data integration, data warehousing, and advanced analytics. The platform should support various data sources, including electronic health records (EHRs) and medical imaging data.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Set up a secure, cloud-based instance of the platform.</span></li><li>2. <span>Provide a case study demonstrating the platform's ability to generate meaningful insights from a real-world healthcare dataset.</span></li><li>3. <span>Submit the source code, system architecture diagrams, and all documentation.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 160 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "e5f6a7b8-c9d0-1234-5678-cdef12345678",
+    "rewardAmount": 24000000,
+    "deadline": "2025-10-05T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Supply Chain Visibility and Tracking System",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "supply-chain-visibility-tracking-system",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 20,
+      "Submission": 6
+    },
+    "sponsor": {
+      "name": "VeriChain",
+      "slug": "verichain",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🔗 Supply Chain Visibility and Tracking System</h1></div><p class=\"text-gray-600 text-sm\">Develop a system that provides end-to-end visibility and tracking of goods throughout the supply chain. The system should use a combination of IoT and blockchain technology to ensure data integrity.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 24,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A system that tracks products from the manufacturer to the end consumer. The system should have a dashboard for monitoring shipment status and a mobile app for scanning QR codes to verify product authenticity.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Demonstrate a pilot implementation of the system with a real product.</span></li><li>2. <span>Provide a security audit of the blockchain component.</span></li><li>3. <span>Submit the complete source code, hardware specifications, and all relevant documentation.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 110 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "f6a7b8c9-d0e1-2345-6789-def123456789",
+    "rewardAmount": 30000000,
+    "deadline": "2025-11-28T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Custom ERP for a Manufacturing Company",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "custom-erp-manufacturing",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 25,
+      "Submission": 5
+    },
+    "sponsor": {
+      "name": "ManuPro",
+      "slug": "manupro",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🏭 Custom ERP for a Manufacturing Company</h1></div><p class=\"text-gray-600 text-sm\">Build a custom Enterprise Resource Planning (ERP) system for a mid-sized manufacturing company. The ERP should streamline business processes, from inventory management to financial accounting.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 30,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A modular ERP system with modules for inventory control, production planning, order management, and accounting. The system should be scalable and customizable to meet the company's specific needs.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Deliver a fully functional ERP system with all the required modules.</span></li><li>2. <span>Provide comprehensive training for the company's employees.</span></li><li>3. <span>Submit the source code and a detailed implementation plan.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 130 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "a7b8c9d0-e1f2-3456-7890-ef1234567890",
+    "rewardAmount": 17000000,
+    "deadline": "2025-09-10T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Marketing Automation Platform",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "marketing-automation-platform",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 33,
+      "Submission": 12
+    },
+    "sponsor": {
+      "name": "MarketFlow",
+      "slug": "marketflow",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": false,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🚀 Marketing Automation Platform</h1></div><p class=\"text-gray-600 text-sm\">Create a platform to automate repetitive marketing tasks. The platform should help businesses nurture leads, personalize customer journeys, and measure campaign performance.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 17,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A platform with features for email marketing, lead scoring, and campaign management. The platform should have a visual workflow builder for creating automation rules.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Provide a live demo of the platform creating and running a marketing campaign.</span></li><li>2. <span>Submit a comparison of the platform's features with existing marketing automation tools.</span></li><li>3. <span>Deliver the full source code and documentation.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 70 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "b8c9d0e1-f2a3-4567-8901-f12345678901",
+    "rewardAmount": 26000000,
+    "deadline": "2025-10-25T23:59:59.000Z",
+    "type": "bounty",
+    "title": "E-Learning Platform for K-12 Students",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "e-learning-platform-k12",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 18,
+      "Submission": 5
+    },
+    "sponsor": {
+      "name": "LearnSphere",
+      "slug": "learnsphere",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">📚 E-Learning Platform for K-12 Students</h1></div><p class=\"text-gray-600 text-sm\">Develop an engaging and interactive e-learning platform for students in kindergarten through 12th grade. The platform should make learning fun and accessible for all students.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 26,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A platform with a gamified curriculum, animated video lessons, and interactive quizzes. The platform should cover a range of subjects, including math, science, and language arts.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Launch the platform with content for at least three grade levels.</span></li><li>2. <span>Provide a report on student engagement and learning outcomes from a pilot program.</span></li><li>3. <span>Submit the complete source code and all educational content.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 100 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "c9d0e1f2-a3b4-5678-9012-123456789012",
+    "rewardAmount": 20000000,
+    "deadline": "2025-09-30T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Fitness and Nutrition Tracking App",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "fitness-nutrition-tracking-app",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 30,
+      "Submission": 11
+    },
+    "sponsor": {
+      "name": "NutriFit",
+      "slug": "nutrifit",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🥗 Fitness and Nutrition Tracking App</h1></div><p class=\"text-gray-600 text-sm\">Create a comprehensive app for tracking fitness activities and daily nutrition intake. The app should help users achieve their health and fitness goals.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 20,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A mobile app with a food database, a barcode scanner for easy calorie tracking, and an exercise log. The app should provide personalized recommendations and progress reports.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Submit the app with a large and accurate food database.</span></li><li>2. <span>Provide a plan for continuously updating the app's content and features.</span></li><li>3. <span>Deliver the source code and all app assets.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 80 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "d0e1f2a3-b4c5-6789-0123-234567890123",
+    "rewardAmount": 33000000,
+    "deadline": "2025-12-05T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Travel Planning and Booking Platform",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "travel-planning-booking-platform",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 22,
+      "Submission": 6
+    },
+    "sponsor": {
+      "name": "Wanderlust",
+      "slug": "wanderlust",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">✈️ Travel Planning and Booking Platform</h1></div><p class=\"text-gray-600 text-sm\">Develop a one-stop platform for planning and booking trips. The platform should allow users to search for flights, hotels, and activities, and create custom itineraries.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 33,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A web and mobile platform with a powerful search engine, a user-friendly booking process, and integration with major travel providers. The platform should also have a social component for sharing travel experiences.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Launch the platform with a wide selection of travel options.</span></li><li>2. <span>Provide a marketing strategy for attracting both travelers and travel suppliers.</span></li><li>3. <span>Submit the full source code and API documentation.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 120 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "e1f2a3b4-c5d6-7890-1234-345678901234",
+    "rewardAmount": 27000000,
+    "deadline": "2025-11-20T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Freelancer Marketplace Platform",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "freelancer-marketplace-platform",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 35,
+      "Submission": 13
+    },
+    "sponsor": {
+      "name": "GigConnect",
+      "slug": "gigconnect",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">💼 Freelancer Marketplace Platform</h1></div><p class=\"text-gray-600 text-sm\">Create a platform that connects freelancers with clients looking for their services. The platform should facilitate communication, project management, and payments.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 27,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A platform with freelancer profiles, a job board, a proposal system, and an escrow service for secure payments. The platform should have a review and rating system to build trust.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Launch the platform and attract an initial user base of freelancers and clients.</span></li><li>2. <span>Provide a business plan for monetizing the platform.</span></li><li>3. <span>Deliver the full source code and user data (anonymized).</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 100 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "f2a3b4c5-d6e7-8901-2345-456789012345",
+    "rewardAmount": 36000000,
+    "deadline": "2026-02-15T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Cloud-Based Accounting Software for Small Businesses",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "cloud-accounting-software-smb",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 24,
+      "Submission": 7
+    },
+    "sponsor": {
+      "name": "AccuBooks",
+      "slug": "accubooks",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">💰 Cloud-Based Accounting Software for Small Businesses</h1></div><p class=\"text-gray-600 text-sm\">Develop a user-friendly accounting software for small businesses. The software should simplify financial management and help business owners make informed decisions.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 36,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A web-based software with features for invoicing, expense tracking, and financial reporting. The software should integrate with bank accounts and payment gateways.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Provide a live demo of the software with sample data.</span></li><li>2. <span>Submit a security audit of the software.</span></li><li>3. <span>Deliver the full source code and a user guide.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 140 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "a3b4c5d6-e7f8-9012-3456-567890123456",
+    "rewardAmount": 21000000,
+    "deadline": "2026-01-10T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Real Estate Crowdfunding Platform",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "real-estate-crowdfunding-platform",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 29,
+      "Submission": 8
+    },
+    "sponsor": {
+      "name": "PropFund",
+      "slug": "propfund",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🏢 Real Estate Crowdfunding Platform</h1></div><p class=\"text-gray-600 text-sm\">Create a platform that allows people to invest in real estate projects with small amounts of money. The platform should make real estate investing more accessible to the average person.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 21,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A platform with property listings, an investment dashboard, and a secure payment system. The platform should comply with all relevant financial regulations.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Launch the platform with a few initial investment opportunities.</span></li><li>2. <span>Provide a legal and regulatory compliance report.</span></li><li>3. <span>Submit the full source code and platform documentation.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 90 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "b4c5d6e7-f8a9-0123-4567-678901234567",
+    "rewardAmount": 39000000,
+    "deadline": "2026-03-20T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Genomic Data Analysis and Visualization Platform",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "genomic-data-analysis-visualization",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 38,
+      "Submission": 12
+    },
+    "sponsor": {
+      "name": "GenoVis",
+      "slug": "genovis",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🧬 Genomic Data Analysis and Visualization Platform</h1></div><p class=\"text-gray-600 text-sm\">Develop a platform for analyzing and visualizing large-scale genomic data. The platform should help researchers uncover insights into the genetic basis of diseases.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 39,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A platform with tools for genomic data processing, statistical analysis, and interactive visualization. The platform should be able to handle various types of genomic data, such as DNA sequencing and gene expression data.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Demonstrate the platform's ability to analyze a large genomic dataset.</span></li><li>2. <span>Provide a tutorial on how to use the platform's analysis and visualization tools.</span></li><li>3. <span>Submit the source code, system architecture, and a list of supported data formats.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 220 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "c5d6e7f8-a9b0-1234-5678-789012345678",
+    "rewardAmount": 23000000,
+    "deadline": "2026-02-10T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Personal Finance and Budgeting App",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "personal-finance-budgeting-app",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 32,
+      "Submission": 10
+    },
+    "sponsor": {
+      "name": "BudgetWise",
+      "slug": "budgetwise",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">💸 Personal Finance and Budgeting App</h1></div><p class=\"text-gray-600 text-sm\">Create an app that helps users manage their personal finances and stick to a budget. The app should make it easy to track income and expenses, set financial goals, and save money.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 23,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A mobile app with features for connecting bank accounts, categorizing transactions, and creating custom budgets. The app should provide personalized insights and tips for improving financial health.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Submit the app with support for major banks in the target market.</span></li><li>2. <span>Provide a security plan for protecting user's financial data.</span></li><li>3. <span>Deliver the source code and design files.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 90 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "d6e7f8a9-b0c1-2345-6789-890123456789",
+    "rewardAmount": 34000000,
+    "deadline": "2026-03-01T23:59:59.000Z",
+    "type": "bounty",
+    "title": "AI-Powered Code Review and Analysis Tool",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "ai-code-review-analysis-tool",
+    "isWinnersAnnounced": false,
+    "isFeatured": true,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 35,
+      "Submission": 9
+    },
+    "sponsor": {
+      "name": "CodeGuardian",
+      "slug": "codeguardian",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": false
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🔍 AI-Powered Code Review and Analysis Tool</h1></div><p class=\"text-gray-600 text-sm\">Develop a tool that uses AI to automatically review code for quality, security, and performance issues. The tool should help developers write better code and reduce the time spent on manual code reviews.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 34,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A tool that integrates with popular version control systems (e.g., GitHub, GitLab) and provides automated feedback on pull requests. The tool should use machine learning to identify common coding errors and suggest improvements.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Provide a live demo of the tool analyzing a complex codebase.</span></li><li>2. <span>Submit a report on the tool's accuracy and performance.</span></li><li>3. <span>Deliver the source code and the trained AI models.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 130 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  },
+  {
+    "id": "e7f8a9b0-c1d2-3456-7890-901234567890",
+    "rewardAmount": 25000000,
+    "deadline": "2026-02-25T23:59:59.000Z",
+    "type": "bounty",
+    "title": "Customer Loyalty and Rewards Program Platform",
+    "token": "VND",
+    "winnersAnnouncedAt": null,
+    "slug": "customer-loyalty-rewards-platform",
+    "isWinnersAnnounced": false,
+    "isFeatured": false,
+    "compensationType": "fixed",
+    "minRewardAsk": null,
+    "maxRewardAsk": null,
+    "status": "OPEN",
+    "_count": {
+      "Comments": 30,
+      "Submission": 8
+    },
+    "sponsor": {
+      "name": "LoyaltyPlus",
+      "slug": "loyaltyplus",
+      "logo": "https://res.cloudinary.com/dgvnuwspr/image/upload/v1743097701/j0euoi2yteegjmcjyawu.png",
+      "isVerified": true,
+      "st": true
+    },
+    "detail": {
+      "main_content": "<div class=\"flex-1 p-6 space-y-6\"><div><div class=\"flex items-center space-x-2 mb-2\"><h1 class=\" font-bold \">🎁 Customer Loyalty and Rewards Program Platform</h1></div><p class=\"text-gray-600 text-sm\">Create a platform for businesses to launch and manage customer loyalty and rewards programs. The platform should help businesses increase customer retention and lifetime value.</p></div><div class=\"flex flex-col space-y-4\"><div><h1 class=\"font-bold\">Project Snapshot</h1></div><div class=\"space-y-4\"><div><h4 class=\"font-bold mb-2\">Prize Pool 25,000,000 VND</h4></div><div><h4 class=\"font-bold mb-2\">What to Build</h4><p class=\"text-sm text-gray-600\">A platform with features for creating tiered loyalty programs, offering points and rewards, and tracking customer activity. The platform should integrate with popular e-commerce and POS systems.</p></div><div><h4 class=\"font-bold mb-2\">How to Submit (3 steps)</h4><ol class=\"text-sm text-gray-600 space-y-2\"><li>1. <span>Provide a demo of the platform with a few sample loyalty programs.</span></li><li>2. <span>Submit a case study of a business that has successfully used the platform.</span></li><li>3. <span>Deliver the full source code and integration guides.</span></li></ol></div><div><p class=\"text-sm text-gray-600\"><strong>Deadline:</strong> 100 days after this bounty goes live.</p></div></div></div></div>"
+    }
+  }
+]
