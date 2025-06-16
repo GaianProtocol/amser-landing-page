@@ -1,48 +1,14 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { IJob } from "@/types/job";
 import { Calendar } from "lucide-react";
-import Image from "next/image";
-import { useEffect, useState } from "react";
 import RelatedCard from "../components/related-card";
-import { getDaysLeft } from "../lib/utils";
-interface Listing {
-  id: string;
-  title: string;
-  rewardAmount: number;
-  deadline: string;
-  type: "bounty" | "project";
-  token: string;
-  sponsor: {
-    name: string;
-    logo: string;
-  };
-  _count: {
-    Comments: number;
-    Submission: number;
-  };
-}
-export function LeftSidebar() {
-  const [listings, setListings] = useState<Listing[] | null>(null);
+import { getDaysLeft, getTimeRemaining } from "../lib/utils";
 
-  useEffect(() => {
-    const fetchListings = async () => {
-      try {
-        const response = await fetch("/data-page/listings.json");
-        if (!response.ok) {
-          throw new Error("Failed to fetch listings");
-        }
-        const data: Listing[] = await response.json();
-        setListings(data);
-      } catch (err) {
-        console.log((err as Error).message);
-      } 
-    };
-    fetchListings();
-  }, []);
-
+export function LeftSidebar({ job, jobList }: { job: IJob; jobList: IJob[] }) {
   return (
     <div className="md:w-80 w-full bg-white md:border-r max-md:border-t border-gray-200 p-6 space-y-6">
-      <div>
+      {/* <div>
         <h3 className="font-semibold text-gray-900 mb-4">Prize Pool</h3>
         <div className="space-y-3">
           <div className="flex items-center justify-between">
@@ -81,13 +47,13 @@ export function LeftSidebar() {
             <span className="text-xs text-gray-500">3rd</span>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="flex items-center space-x-2 mb-2 justify-between">
         <div className="flex items-center gap-1">
           <Calendar className="w-4 h-4 text-gray-500" />
-          <span className="text-2xl font-bold">14</span>
+          <span className="text-2xl font-bold">{job._count.Submission}</span>
         </div>
-        <span className="text-sm text-gray-500">10:6h:2m</span>
+        <span className="text-sm text-gray-500">{getTimeRemaining(job.deadline)}</span>
       </div>
       <div className="flex justify-between">
         <p className="text-xs text-gray-500">SUBMISSIONS</p>
@@ -116,20 +82,23 @@ export function LeftSidebar() {
       <div>
         <h4 className="text-sm mb-3">RELATED LIVE LISTINGS</h4>
         <div className="space-y-3">
-          {listings &&
-            listings.map((listing) => (
-              <RelatedCard
-                key={listing.id}
-                title={listing.title}
-                organization={listing.sponsor.name}
-                type={listing.type}
-                dueDate={getDaysLeft(listing.deadline)}
-                amount={listing.rewardAmount}
-                logo={listing.sponsor.logo}
-                totalSubmission={listing._count.Submission}
-                currency={listing.token}
-              />
-            ))}
+          {jobList &&
+            jobList
+              .slice(0, 6)
+              .map((job) => (
+                <RelatedCard
+                  key={job.id}
+                  title={job.title}
+                  organization={job.sponsor.name}
+                  type={job.type}
+                  dueDate={getDaysLeft(job.deadline)}
+                  amount={job.rewardAmount}
+                  logo={job.sponsor.logo}
+                  totalSubmission={job._count.Submission}
+                  currency={job.token}
+                  slug={job.slug}
+                />
+              ))}
         </div>
       </div>
     </div>

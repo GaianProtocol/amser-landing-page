@@ -14,7 +14,7 @@ export function AppHeader() {
     { label: "Features", href: "#features" },
     { label: "Contact", href: "#contact" },
     { label: "Browse Jobs", href: "/browse-jobs" },
-    { label: "Bounty Dashboard", href: "/bounty-dashboard" },
+    // { label: "Bounty Dashboard", href: "/bounty-dashboard" },
   ];
 
   return (

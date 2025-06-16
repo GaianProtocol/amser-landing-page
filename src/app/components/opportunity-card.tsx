@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Calendar, Circle } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
+import { redirect } from "next/navigation";
+import { formatLargeNumber } from "../lib/utils";
 
 interface OpportunityCardProps {
   title: string;
@@ -14,6 +16,7 @@ interface OpportunityCardProps {
   currency: string;
   logo: string;
   totalSubmission: number;
+  slug: string;
 }
 
 export default function OpportunityCard({
@@ -25,10 +28,14 @@ export default function OpportunityCard({
   amountRange,
   currency,
   logo,
-  totalSubmission
+  totalSubmission,
+  slug,
 }: OpportunityCardProps) {
   return (
-    <Card className="p-4 hover:shadow-md transition-shadow shadow-none border-none cursor-pointer gap-0">
+    <Card
+      onClick={() => redirect(`/job/${slug}`)}
+      className="p-4 hover:shadow-md transition-shadow shadow-none border-none cursor-pointer gap-0"
+    >
       <div className="flex gap-4">
         <div className="w-16 h-16 rounded overflow-hidden flex-shrink-0">
           {logo && (
@@ -76,7 +83,7 @@ export default function OpportunityCard({
             </span>
           ) : (
             <span>
-              {amount.toLocaleString()} {currency}
+              {formatLargeNumber(amount)} {currency}
             </span>
           )}
         </div>
@@ -96,7 +103,7 @@ export default function OpportunityCard({
 
         <div className="flex items-center gap-1">
           <Circle className="w-2 h-2 fill-green-500 text-green-500" />
-           <span>{totalSubmission}</span>
+          <span>{totalSubmission}</span>
         </div>
       </div>
     </Card>

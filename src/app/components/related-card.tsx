@@ -2,6 +2,8 @@
 import { Card } from "@/components/ui/card";
 import { Calendar, Circle } from "lucide-react";
 import Image from "next/image";
+import { formatLargeNumber } from "../lib/utils";
+import { redirect } from "next/navigation";
 
 interface RelatedCardCardProps {
   title: string;
@@ -13,6 +15,7 @@ interface RelatedCardCardProps {
   currency: string;
   logo: string;
   totalSubmission: number;
+  slug: string
 }
 
 export default function RelatedCard({
@@ -24,9 +27,10 @@ export default function RelatedCard({
   currency,
   logo,
   totalSubmission,
+  slug
 }: RelatedCardCardProps) {
   return (
-    <Card className=" transition-shadow shadow-none border-none cursor-pointer gap-0 py-0">
+    <Card onClick={() => redirect(`/job/${slug}`)} className=" transition-shadow shadow-none border-none cursor-pointer gap-0 py-0">
       <div className="flex gap-4">
         <div className="w-8 h-8 rounded overflow-hidden flex-shrink-0 ">
           {logo && (
@@ -55,7 +59,7 @@ export default function RelatedCard({
                 </span>
               ) : (
                 <span>
-                  {amount.toLocaleString()} {currency}
+                  {formatLargeNumber(amount)} {currency}
                 </span>
               )}
             </div>
