@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "AMSER",
-  description: "Payment on Behalf Service for Modern Businesses",
+  description: "Track Your Employee Spending on Business Trips",
 };
 
 export default function RootLayout({

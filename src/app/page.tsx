@@ -10,9 +10,9 @@ export default function Home() {
       {/* Hero Section */}
       <section className="flex-1 flex flex-col md:flex-row items-center justify-center gap-10 px-4 md:px-16 py-12 md:py-24 bg-white">
         <div className="max-w-xl text-center md:text-left">
-          <h1 className="text-2xl sm:text-3xl md:text-5xl font-extrabold mb-6 leading-tight">
-            <span className="whitespace-normal">Payment on Behalf Service</span>{" "}
-            for Modern Businesses
+          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold mb-6 leading-tight">
+            <span className="whitespace-normal">Track Your Employee</span>{" "}
+            Spending on Business Trips
           </h1>
           <p className="text-lg md:text-xl mb-8 text-gray-700">
             AMSER is your trusted payment gateway, simplifying transactions and
