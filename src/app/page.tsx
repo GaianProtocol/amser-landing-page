@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { AppHeader } from "./components/AppHeader";
 
 export default function Home() {
@@ -15,8 +16,8 @@ export default function Home() {
             Spending on Business Trips
           </h1>
           <p className="text-lg md:text-xl mb-8 text-gray-700">
-            AMSER is your trusted payment gateway, simplifying transactions and
-            empowering your business to focus on what matters most.
+            Unlock human potential by removing financial and administrative
+            barriers to innovation, creativity, and community progress.
           </p>
           <a
             href="#contact"
@@ -63,28 +64,59 @@ export default function Home() {
           Why Choose AMSER?
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          <div className="bg-white rounded-xl shadow p-6 flex flex-col items-center text-center border-t-4 border-[#97EF86]">
-            <span className="text-4xl mb-4">💳</span>
-            <h3 className="font-semibold text-xl mb-2">Seamless Payments</h3>
+          <div className="bg-white rounded-xl shadow p-6 flex flex-col items-center text-center border-t-4 border-[#97EF86] group hover:shadow-lg transition-shadow duration-300">
+            <span className="text-4xl mb-4 text-black">
+              <Image
+                src={"/icons/credit-card.svg"}
+                alt="Credit Card"
+                width={40}
+                height={40}
+              />
+            </span>
+            <h3 className="font-semibold text-xl mb-2">
+              Built-in coaching <br />
+              that wins
+            </h3>
             <p className="text-gray-700">
-              Fast, secure, and reliable payment processing for your business
-              and your customers.
+              Our AI proposal assistant and peer-review loops polish your
+              narrative, budget, and metrics, raising success rates up to 3×
+              compared with DIY applications.
             </p>
           </div>
           <div className="bg-white rounded-xl shadow p-6 flex flex-col items-center text-center border-t-4 border-[#97EF86]">
-            <span className="text-4xl mb-4">🔒</span>
-            <h3 className="font-semibold text-xl mb-2">Top-tier Security</h3>
+            <span className="text-4xl mb-4 text-black">
+              <Image
+                src={"/icons/padlock.svg"}
+                alt="Credit Card"
+                width={40}
+                height={40}
+              />
+            </span>
+            <h3 className="font-semibold text-xl mb-2">
+              Lightning-fast from search to submit
+            </h3>
             <p className="text-gray-700">
-              Your transactions are protected with industry-leading security and
-              compliance standards.
+              Amser collapses weeks of grant hunting into a single, smart
+              dashboard—auto-matching your project to open funds and pre-filling
+              forms so you can hit “Apply” in minutes, not months.
             </p>
           </div>
           <div className="bg-white rounded-xl shadow p-6 flex flex-col items-center text-center border-t-4 border-[#97EF86]">
-            <span className="text-4xl mb-4">⚡</span>
-            <h3 className="font-semibold text-xl mb-2">Instant Settlements</h3>
+            <span className="text-4xl mb-4">
+              <Image
+                src={"/icons/lightning.svg"}
+                alt="Credit Card"
+                width={40}
+                height={40}
+              />
+            </span>
+            <h3 className="font-semibold text-xl mb-2">
+              Radical transparency, <br /> rock-solid trust
+            </h3>
             <p className="text-gray-700">
-              Receive your funds quickly with our instant settlement feature,
-              keeping your cash flow healthy.
+              Track every review step in real time, keep your data encrypted
+              end-to-end, and pay zero hidden fees—because funding should feel
+              empowering, not mysterious.
             </p>
           </div>
         </div>
@@ -95,10 +127,10 @@ export default function Home() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">About AMSER</h2>
           <p className="text-lg text-gray-700 mb-4">
-            AMSER is dedicated to making payments effortless for businesses of
-            all sizes. Our Payment on Behalf Service streamlines your financial
-            operations, reduces manual work, and ensures every transaction is
-            smooth and secure.
+            At AMSER, we believe the world changes when visionary people get the
+            resources to act. Founded by former grant-seekers and funders who
+            were frustrated by red tape, we set out to create a simpler, faster,
+            and fairer path from <i>great idea to fully-funded project.</i>
           </p>
           <p className="text-lg text-gray-700">
             Whether you&apos;re a startup or an enterprise, AMSER adapts to your
