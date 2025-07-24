@@ -9,6 +9,14 @@ const nextConfig = {
       },
     ],
   },
+  async rewrites() {
+    return [
+      {
+        source: "/browse-jobs",
+        destination: "/not-found",
+      },
+    ];
+  },
 };
 
 export default nextConfig;
