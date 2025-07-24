@@ -3,7 +3,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useAuth } from "../contexts/AuthContext";
-import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover";
+import {
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+} from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
 
 export function AppHeader() {
@@ -13,7 +17,7 @@ export function AppHeader() {
     { label: "About", href: "#about" },
     { label: "Features", href: "#features" },
     { label: "Contact", href: "#contact" },
-    { label: "Browse Jobs", href: "/browse-jobs" },
+    // { label: "Browse Jobs", href: "/browse-jobs" },
     // { label: "Bounty Dashboard", href: "/bounty-dashboard" },
   ];
 
@@ -57,7 +61,11 @@ export function AppHeader() {
               </svg>
             </Button>
           </PopoverTrigger>
-          <PopoverContent className="w-full md:hidden bg-white" side="bottom" align="start">
+          <PopoverContent
+            className="w-full md:hidden bg-white"
+            side="bottom"
+            align="start"
+          >
             <nav className="flex flex-col gap-4 text-base font-medium">
               {navLinks.map((link) => (
                 <a
@@ -69,12 +77,12 @@ export function AppHeader() {
                 </a>
               ))}
               <div className="flex flex-col gap-3 w-full items-center">
-                <Link
+                {/* <Link
                   href="/user/portal"
                   className="w-48 block text-center px-6 py-3 bg-[#97EF86] text-black rounded-xl hover:bg-[#97EF86]/80 transition-colors font-semibold"
                 >
                   Portal
-                </Link>
+                </Link> */}
                 {user ? (
                   <div className="flex flex-col items-center gap-2 w-full">
                     <span className="text-gray-600 text-center">
@@ -110,12 +118,12 @@ export function AppHeader() {
             {link.label}
           </a>
         ))}
-        <Link
+        {/* <Link
           href="/user/portal"
           className="px-6 py-3 bg-[#97EF86] text-black rounded-xl hover:bg-[#97EF86]/80 transition-colors font-semibold"
         >
           Portal
-        </Link>
+        </Link> */}
         {user ? (
           <div className="flex items-center gap-4">
             <span className="text-gray-600">{user.email}</span>
